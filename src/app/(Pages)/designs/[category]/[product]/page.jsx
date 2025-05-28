@@ -20,8 +20,8 @@ export async function generateMetadata({ params }) {
 
   const categoryName = formatCategoryName(category);
   const imageUrl = productData.image.startsWith("http")
-    ? `${productData.image}?v=1233`
-    : `${BASE_URL}${productData.image}?v=1233`;
+    ? `${productData.image}?v=9487`
+    : `${BASE_URL}${productData.image}?v=3784`;
 
   const description = `Explore our premium ${categoryName.toLowerCase()} stone designs featuring exceptional craftsmanship and natural materials.`;
 

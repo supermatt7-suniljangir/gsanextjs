@@ -25,12 +25,16 @@ export async function generateMetadata({ params }) {
 
   const description = `Explore our premium ${categoryName.toLowerCase()} stone designs featuring exceptional craftsmanship and natural materials.`;
 
+  // Construct the absolute URL for this page
+  const pageUrl = `${BASE_URL}/designs/${category}/${product}`;
+
   return {
     title: `${productData.name} | ${categoryName} | Global Stone Art`,
     description,
     openGraph: {
       title: `${productData.name} | ${categoryName} | Global Stone Art`,
       description,
+      url: pageUrl, // ← This was missing!
       images: [
         {
           url: imageUrl,
@@ -40,6 +44,7 @@ export async function generateMetadata({ params }) {
         },
       ],
       type: "website",
+      siteName: "Global Stone Art", // Optional but recommended
     },
     twitter: {
       card: "summary_large_image",

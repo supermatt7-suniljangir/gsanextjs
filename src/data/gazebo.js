@@ -2,27 +2,28 @@ const gazebo = [
   {
     id: 1,
     name: "Item 1",
-    image: "https://dkva9wu99qm8z.cloudfront.net/gazebo-01.jpeg",
+    image: "https://dkva9wu99qm8z.cloudfront.net/gazebo-01-og.jpeg",
     range: "₹5000 - ₹10,000",
   },
   {
     id: 2,
     name: "Item 2",
-    image: "https://dkva9wu99qm8z.cloudfront.net/gazebo-02.jpeg",
+    image: "https://dkva9wu99qm8z.cloudfront.net/gazebo-05-og.jpeg",
     range: "₹5000 - ₹10,000",
   },
   {
     id: 3,
     name: "Item 3",
-    image: "https://dkva9wu99qm8z.cloudfront.net/gazebo-01.png",
+    image: "https://dkva9wu99qm8z.cloudfront.net/gazebo-06-og.jpeg",
     range: "₹5000 - ₹10,000",
   },
   {
     id: 4,
     name: "Item 4",
-    image: "https://dkva9wu99qm8z.cloudfront.net/gazebo-02.png",
+    image: "https://dkva9wu99qm8z.cloudfront.net/gazebo-07-og.jpeg",
     range: "₹5000 - ₹10,000",
   },
+
   {
     id: 5,
     name: "Item 5",
